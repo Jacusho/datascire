@@ -15,7 +15,9 @@ def area_rectangulo2(base,altura):
     return area
 
 
-def area_rectangulo3(base,altura):
+
+
+def area_rectangulo4(base,altura):
     
     return base*altura
-area_rectangulo3(5,9)
+area_rectangulo4(5,9)
