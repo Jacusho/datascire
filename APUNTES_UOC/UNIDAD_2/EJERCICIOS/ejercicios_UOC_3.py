@@ -13,10 +13,11 @@ l_2 = [1, 2, 3, 4, 5, 6, 7, 8]
 print(l_1[-1])
 l_3 = []
 l_3.append(l_1[0])
-l_3.append(l_2[-1])
+l_3.append(l_2[0])
 print(l_3)
 l_4 = []
-l_4.append(l_2[:3])
+for i in l_2[:3]:
+    l_4.append(i)
 print(l_4)
 print(l_1[2] + " " + str(l_2[-1]))
 
